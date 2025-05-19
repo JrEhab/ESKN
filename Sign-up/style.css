@@ -19,6 +19,7 @@ body {
 .col-5, .col-7 {
     overflow: hidden;
 }
+
 .main-color{
     color: #18C1B1;
 }
@@ -117,4 +118,41 @@ body {
 
 .main form input:focus{
     box-shadow: #18C1B1 0px 0px 2px 1px;
+}
+
+.lyt2 form input:focus{
+    box-shadow: #18C1B1 0px 0px 5px 1px;
+}
+
+.main .row .lyt2 .OTP form input{
+    border-radius: 25px;
+    height: 170px;
+    width: 170px;
+    color: #18C1B1;
+    border-width: 3px;   
+    border-color: #18C1B1;
+    background-color: whitesmoke; 
+    font-size: 70px;
+    text-align: center;
+    border-style:solid;
+}
+
+.main .row .lyt2 .OTP form input:focus{
+    box-shadow: #18C1B1 0px 0px 5px 1px;
+}
+
+.main .row .lyt2 .OTP{
+      font-family: "Josefin Sans";
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main .row .lyt2 .OTP h5{
+    font-size: 24px;
+}
+
+.main .row .lyt2 .OTP h5 a{
+    color: #18C1B1;
+
 }
