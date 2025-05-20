@@ -21,10 +21,10 @@ body {
 }
 
 .main-color{
-    color: #18C1B1;
+    color: #540b0e;
 }
 .main form button{
-    background-color: #18C1B1;
+    background-color: #540b0e;
     color: white;
     padding: 10px 0 10px 0;
     width: 100%;
@@ -33,7 +33,7 @@ body {
 }
 
 .main form button:hover{
-    background-color: #18C1B1;
+    background-color: #540b0e;
     color: white;
     padding: 10px 0 10px 0;
     width: 100%;
@@ -41,15 +41,6 @@ body {
     margin: 5px 0 10px 0;
 }
 
-.main form .link{
-    background-color: white;
-    color: black;
-    padding: 10px 0 10px 0;
-    border: 1px solid black;
-    width: 100%;
-    text-align: center; 
-    margin: 5px 0 10px 0;
-}
 
 .main form .or{
     position: relative;
@@ -96,7 +87,7 @@ body {
     width: 20px;
 }
 
-.main form .lyt{
+.main .lyt{
     background-color:rgba(0, 0, 0, 0.6) ;
     left: 0;
     top: 0;
@@ -104,42 +95,40 @@ body {
     height: 100vh;
 }
 
-.main form .lyt h1{
+.main .lyt h1{
     top: 50%;
     transform: translateY(-50%);
     font-size: 100px;
 }
 
 .main form .btn:hover{
-    color: #18C1B1;
-    border-color: #18C1B1;
+    color: #540b0e;
+    border-color: #540b0e;
     background-color: white;
 }
 
 .main form input:focus{
-    box-shadow: #18C1B1 0px 0px 2px 1px;
+    box-shadow: #540b0e 0px 0px 2px 1px;
+    border-style:none ;
+
 }
 
 .lyt2 form input:focus{
-    box-shadow: #18C1B1 0px 0px 5px 1px;
+    box-shadow: #540b0e 0px 0px 5px 1px;
+    border-style:none ;
+
 }
 
-.main .row .lyt2 .OTP form input{
-    border-radius: 25px;
-    height: 170px;
-    width: 170px;
-    color: #18C1B1;
-    border-width: 3px;   
-    border-color: #18C1B1;
+.main .row .lyt2 .OTP input{
+    border-radius: 10px;
+    height: 50px;
+    color: #540b0e;
+    border-width: 1px;   
+    border-color: #540b0e;
     background-color: whitesmoke; 
-    font-size: 70px;
     text-align: center;
-    border-style:solid;
 }
 
-.main .row .lyt2 .OTP form input:focus{
-    box-shadow: #18C1B1 0px 0px 5px 1px;
-}
 
 .main .row .lyt2 .OTP{
       font-family: "Josefin Sans";
@@ -153,6 +142,6 @@ body {
 }
 
 .main .row .lyt2 .OTP h5 a{
-    color: #18C1B1;
+    color: #540b0e;
 
 }

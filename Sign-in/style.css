@@ -20,10 +20,11 @@ body {
     overflow: hidden;
 }
 .main-color{
-    color: #18C1B1;
+    color:#540b0e;
+;
 }
 .main form button{
-    background-color: #18C1B1;
+    background-color: #540b0e;
     color: white;
     padding: 10px 0 10px 0;
     width: 100%;
@@ -121,6 +122,11 @@ body {
 }
 
 .main form .btn:hover{
-    color: #18C1B1;
-    border-color: #18C1B1;
+    color: #540b0e;
+    border-color: #540b0e;
+}
+
+.main form input:focus{
+    box-shadow: #540b0e 0px 0px 5px 1px;
+    border-style: none;
 }
