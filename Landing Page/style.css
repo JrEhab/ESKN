@@ -15,6 +15,11 @@
     font-style: normal;
 }
 
+.main-color{
+    color: #540b0e;
+}
+
+
 .main a{
     padding: 10px 30px;
     position: absolute;
@@ -52,4 +57,15 @@
 .main .search input:focus{
     box-shadow: #540b0e 0 0 5px 4px;
     border-style: none;
+}
+
+
+.recommended{
+    background-color: #FFFFFF;
+}
+
+.recommended button.btn{
+    background-color: #540b0e;
+    color: white;
+    
 }
